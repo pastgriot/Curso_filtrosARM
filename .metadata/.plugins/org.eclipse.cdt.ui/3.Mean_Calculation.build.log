@@ -1,0 +1,7 @@
+11:42:16 **** Clean-only build of configuration Debug for project 3.Mean_Calculation ****
+make clean 
+rm -rf *
+ 
+
+11:42:17 Build Finished (took 1s.210ms)
+

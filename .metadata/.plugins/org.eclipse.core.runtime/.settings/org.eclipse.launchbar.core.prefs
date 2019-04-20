@@ -1,0 +1,6 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:2.LPF_Real_Time Debug,org.eclipse.launchbar.core.descriptorType.default\:1.Hello_Filter_fir32 Debug,org.eclipse.launchbar.core.descriptorType.default\:3.Mean_Calculation Debug,org.eclipse.launchbar.core.descriptorType.default\:4.Variance_Calculation Debug
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:2.LPF_Real_Time\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:2.LPF_Real_Time\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

@@ -1,0 +1,22 @@
+Src/sine_Generator.o: ../Src/sine_Generator.c \
+ C:/Users/Asus/Documents/GitHub/Curso_filtrosARM/2.LPF_Real_Time/Inc/sine_Generator.h \
+ C:/Users/Asus/Documents/GitHub/Curso_filtrosARM/2.LPF_Real_Time/Drivers/CMSIS/Include/arm_math.h \
+ C:/Users/Asus/Documents/GitHub/Curso_filtrosARM/2.LPF_Real_Time/Drivers/CMSIS/Include/core_cm4.h \
+ C:/Users/Asus/Documents/GitHub/Curso_filtrosARM/2.LPF_Real_Time/Drivers/CMSIS/Include/core_cmInstr.h \
+ C:/Users/Asus/Documents/GitHub/Curso_filtrosARM/2.LPF_Real_Time/Drivers/CMSIS/Include/cmsis_gcc.h \
+ C:/Users/Asus/Documents/GitHub/Curso_filtrosARM/2.LPF_Real_Time/Drivers/CMSIS/Include/core_cmFunc.h \
+ C:/Users/Asus/Documents/GitHub/Curso_filtrosARM/2.LPF_Real_Time/Drivers/CMSIS/Include/core_cmSimd.h
+
+C:/Users/Asus/Documents/GitHub/Curso_filtrosARM/2.LPF_Real_Time/Inc/sine_Generator.h:
+
+C:/Users/Asus/Documents/GitHub/Curso_filtrosARM/2.LPF_Real_Time/Drivers/CMSIS/Include/arm_math.h:
+
+C:/Users/Asus/Documents/GitHub/Curso_filtrosARM/2.LPF_Real_Time/Drivers/CMSIS/Include/core_cm4.h:
+
+C:/Users/Asus/Documents/GitHub/Curso_filtrosARM/2.LPF_Real_Time/Drivers/CMSIS/Include/core_cmInstr.h:
+
+C:/Users/Asus/Documents/GitHub/Curso_filtrosARM/2.LPF_Real_Time/Drivers/CMSIS/Include/cmsis_gcc.h:
+
+C:/Users/Asus/Documents/GitHub/Curso_filtrosARM/2.LPF_Real_Time/Drivers/CMSIS/Include/core_cmFunc.h:
+
+C:/Users/Asus/Documents/GitHub/Curso_filtrosARM/2.LPF_Real_Time/Drivers/CMSIS/Include/core_cmSimd.h:

@@ -1,0 +1,55 @@
+23:01:35 **** Incremental Build of configuration Debug for project 1.Hello_Filter_fir32 ****
+make all 
+make: Nothing to be done for 'all'.
+23:01:49 **** Programming project 1.Hello_Filter_fir32 on chip ****
+"C:\\Ac6\\SystemWorkbench\\plugins\\fr.ac6.mcu.externaltools.openocd.win32_1.22.0.201902141520\\tools\\openocd\\bin\\openocd.exe" -f stm32.flash.5765753679015365733.cfg -s "C:\\Users\\Asus\\Documents\\GitHub\\Curso_filtrosARM\\1.Hello_Filter_fir32" -s "C:\\Ac6\\SystemWorkbench\\plugins\\fr.ac6.mcu.debug_2.4.0.201902141520\\resources\\openocd\\st_scripts" -c "program Debug/1.Hello_Filter_fir32.elf verify exit" 
+Open On-Chip Debugger 0.10.0-dev-00019-g5352c55 (2019-02-14-15:45)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+srst_only separate srst_nogate srst_open_drain connect_assert_srst
+Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
+adapter speed: 8000 kHz
+adapter_nsrst_delay: 100
+Info : clock speed 8000 kHz
+Info : STLINK v2 JTAG v27 API v2 SWIM v0 VID 0x0483 PID 0x3748
+Info : vid/pid are not identical: 0x0483/0x374B 0x0483/0x3748
+Info : using stlink api v2
+Info : Target voltage: 2.910517
+Info : Unable to match requested speed 8000 kHz, using 4000 kHz
+Info : Stlink adapter speed set to 4000 kHz
+Info : STM32F303VCTx.cpu: hardware has 6 breakpoints, 4 watchpoints
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x080020b8 msp: 0x2000a000
+** Programming Started **
+auto erase enabled
+Info : device id = 0x10036422
+Info : flash size = 256kbytes
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x2000003a msp: 0x2000a000
+wrote 10240 bytes from file Debug/1.Hello_Filter_fir32.elf in 0.530167s (18.862 KiB/s)
+** Programming Finished **
+** Verify Started **
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x2000002e msp: 0x2000a000
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x2000002e msp: 0x2000a000
+verified 8576 bytes in 0.100001s (83.749 KiB/s)
+** Verified OK **
+shutdown command invoked
+11:42:12 **** Clean-only build of configuration Debug for project 1.Hello_Filter_fir32 ****
+make clean 
+rm -rf *
+ 
+11:42:15 **** Clean-only build of configuration Debug for project 2.LPF_Real_Time ****
+make clean 
+rm -rf *
+ 
+11:42:16 **** Clean-only build of configuration Debug for project 3.Mean_Calculation ****
+make clean 
+rm -rf *
+ 
+11:42:18 **** Clean-only build of configuration Debug for project 4.Variance_Calculation ****
+make clean 
+rm -rf *
+ 

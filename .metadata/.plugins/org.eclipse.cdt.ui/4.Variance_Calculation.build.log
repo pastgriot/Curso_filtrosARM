@@ -1,0 +1,7 @@
+11:42:18 **** Clean-only build of configuration Debug for project 4.Variance_Calculation ****
+make clean 
+rm -rf *
+ 
+
+11:42:19 Build Finished (took 1s.154ms)
+
